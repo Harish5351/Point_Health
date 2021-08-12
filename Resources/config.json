@@ -1,0 +1,38 @@
+{
+  "App":
+    {
+        "ExecutionMode":"Cloud", 
+        "os_version" : "9.0",
+        "device" : "Google Pixel 3",
+        "app_url" : "Dev_Test",
+        "build" : "Google_pixel_9_Aug",
+        "name" : "test_1",
+        "browserstack.appium_version" : "1.8.0",
+        "browserstack.user" : "browserstackfine_K3LUAM",
+        "browserstack.key" : "NXKHbmFgk38oDQpZR8pa",
+        
+        "Emulator_app":"C:/Users/Manisha/Documents/Finexity/apk/app.apk",
+        "Emulator_deviceName":"Android Emulator",
+        "platformName":"Android",
+        "appPackage":"com.pointhealth",
+        "appActivity":"com.pointhealth.MainActivity",
+        
+        "automationName":"UiAutomator2",
+        "realdevice_deviceName":"32001d8deeff452d",
+        "realdevice_build":"test",
+        "realdevice_newCommandTimeout":180,
+        "realdevice_os_version":"10.0",
+        "realdevice_noReset":true
+
+    },
+    "Web":{
+        "web_flag":false,
+        "ExecutionMode":"Cloud", 
+        "browserName": "chrome",
+        "name": "single_test",
+        "build": "cucumber-js-browserstack",
+        "browserstack.debug": true,
+        "browserstack.user" : "username",
+        "browserstack.key" : "key"
+    }
+}    
